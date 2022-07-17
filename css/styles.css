@@ -54,6 +54,10 @@
         letter-spacing: 0.02em;
         color: var(--color-title);
 }
+.header-link-studio{
+color: var(--color-link);
+}
+
 .header-link:hover,
 .header-link:focus{
     color: var(--color-link);
@@ -75,6 +79,10 @@
 
 /*--------------------MAINE-------------------*/
 
+.hero{
+        background-color:#2F303A ;
+}
+
 .hero-title{
         font-weight: 900;
         font-size: 44px;
@@ -94,7 +102,9 @@
         letter-spacing: 0.06em;
         color: #FFFFFF;
         cursor: pointer;
+        background-color:var(--color-link);
 }
+
 .benefits-title{
         font-size: 14px;
         line-height: 1.14;
@@ -115,6 +125,10 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--color-title);
+}
+
+.team{
+        background-color: #F5F4FA;
 }
 
 .team-title{
@@ -143,8 +157,11 @@
 }
 
 /*-------------------------FOOTER---------------*/
+.footer{
+        background-color: #2F303A;
+}
 .link-addres{
-        font-style: normal
+        font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -165,11 +182,13 @@
 .footer-mailto:focus,
 .footer-tel:hover,
 .footer-tel:focus {
-    color: var(--color-link);
+    color:#FFFFFF ;
 }
 
 /*-------------------------PORTFOLIO---------------*/
-
+.header-link-portfolio{
+        color: #2196F3;
+}
 .portfolio-btn{
         font-weight: 500;
         font-size: 16px;
@@ -178,6 +197,17 @@
         letter-spacing: 0.03em;
         color: var(--color-title);
         cursor: pointer;
+        background-color: #F5F4FA;
+}
+.portfolio-btn-all{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        cursor: pointer;
+        background-color: #2196F3;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
@@ -189,11 +219,26 @@
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--color-title);
+        cursor: pointer;
 }
 .portfolio-text{
     font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
+        cursor: pointer;
 }
+.portfolio-img{
+        cursor: pointer;
+}
+.header-logo-footer{
+        font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.19;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+}
+
 
 
