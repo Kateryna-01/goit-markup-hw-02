@@ -104,6 +104,10 @@ color: var(--color-link);
         cursor: pointer;
         background-color:var(--color-link);
 }
+.hero-btn:hover,
+.hero-btn:focus{
+        background-color: #188CE8;
+}
 
 .benefits-title{
         font-size: 14px;
